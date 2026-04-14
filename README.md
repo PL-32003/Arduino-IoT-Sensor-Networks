@@ -14,10 +14,16 @@ A secure, multi-factor authentication door lock system utilizing the **MFRC522 R
 ## Project 2: Adaptive Smart Ambient Lighting
 *(Located in the `Smart_Lighting` folder)*
 
-<div style="display: flex; flex-direction: row; gap: 10px;">
-  <img src="Smart_Lighting/light_circuit.png" width="45%">
-  <img src="Smart_Lighting/light_real.png" width="45%">
-</div>
+<table>
+  <tr>
+    <td valign="top" width="50%">
+      <img src="Smart_Lighting/light_circuit.png" width="100%">
+    </td>
+    <td valign="top" width="50%">
+      <img src="Smart_Lighting/light_real.png" width="100%">
+    </td>
+  </tr>
+</table>
 
 An intelligent streetlight simulation system that dynamically adjusts LED intensity based on environmental lighting conditions.
 * **Sensor Integration:** Utilized multiple Photoresistors (LDRs) connected to analog inputs to establish baseline ambient light levels and detect localized shadows or interactions.
