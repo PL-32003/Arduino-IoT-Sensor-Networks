@@ -1,0 +1,6 @@
+# Arduino 編譯暫存檔 (以防萬一)
+build/
+
+# 作業系統隱藏檔
+.DS_Store
+Thumbs.db
