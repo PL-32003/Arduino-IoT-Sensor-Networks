@@ -5,7 +5,7 @@ This repository contains two hands-on Internet of Things (IoT) projects develope
 ## Project 1: Multi-Factor RFID Access Control System
 *(Located in the `HW2_RFID_Access` folder)*
 
-![RFID Circuit](HW2_RFID_Access/rfid_circuit.png)
+![RFID Circuit](RFID_Access/rfid_circuit.png)
 
 A secure, multi-factor authentication door lock system utilizing the **MFRC522 RFID module**. 
 * **Core Mechanisms:** Integrates SPI communication to read physical RFID tags and pairs it with a serial-based PIN code verification system. 
@@ -15,8 +15,8 @@ A secure, multi-factor authentication door lock system utilizing the **MFRC522 R
 *(Located in the `HW1_Smart_Lighting` folder)*
 
 <div style="display: flex; flex-direction: row; gap: 10px;">
-  <img src="HW1_Smart_Lighting/light_circuit.png" width="45%">
-  <img src="HW1_Smart_Lighting/light_real.png" width="45%">
+  <img src="Smart_Lighting/light_circuit.png" width="45%">
+  <img src="Smart_Lighting/light_real.png" width="45%">
 </div>
 
 An intelligent streetlight simulation system that dynamically adjusts LED intensity based on environmental lighting conditions.
