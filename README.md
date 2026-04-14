@@ -3,16 +3,16 @@
 This repository contains two hands-on Internet of Things (IoT) projects developed to explore hardware-software integration, sensor data processing, and physical access control using the Arduino UNO platform.
 
 ## Project 1: Multi-Factor RFID Access Control System
-*(Located in the `HW2_RFID_Access` folder)*
+*(Located in the `RFID_Access_Control` folder)*
 
-![RFID Circuit](RFID_Access/rfid_circuit.png)
+![RFID Circuit](RFID_Access_Control/rfid_circuit.png)
 
 A secure, multi-factor authentication door lock system utilizing the **MFRC522 RFID module**. 
 * **Core Mechanisms:** Integrates SPI communication to read physical RFID tags and pairs it with a serial-based PIN code verification system. 
 * **State Management & Roles:** Implemented an array-based local database with strict role-based access control (Admin vs. Standard User). Admins can dynamically add/remove users and reset passwords via serial commands, while the system provides real-time audio-visual feedback using LEDs and a buzzer.
 
 ## Project 2: Adaptive Smart Ambient Lighting
-*(Located in the `HW1_Smart_Lighting` folder)*
+*(Located in the `Smart_Lighting` folder)*
 
 <div style="display: flex; flex-direction: row; gap: 10px;">
   <img src="Smart_Lighting/light_circuit.png" width="45%">
