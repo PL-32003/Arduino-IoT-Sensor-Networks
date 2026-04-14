@@ -29,3 +29,20 @@ An intelligent streetlight simulation system that dynamically adjusts LED intens
 * **Sensor Integration:** Utilized multiple Photoresistors (LDRs) connected to analog inputs to establish baseline ambient light levels and detect localized shadows or interactions.
 * **Signal Processing & Control:** Employed the `map()` function to convert analog sensor readings into corresponding PWM (Pulse Width Modulation) signals for smooth LED dimming. 
 * **Hardware Debouncing:** Implemented robust state-machine logic and button-debouncing techniques to seamlessly cycle through different lighting algorithms and calibration modes.
+
+## Setup & Requirements
+
+### Hardware Requirements
+* Arduino UNO (or compatible board)
+* MFRC522 RFID Module
+* Photoresistors (LDR) x2
+* LEDs, Buzzers, Push Buttons, and Resistors
+* Breadboard and Jumper Wires
+
+### Software & Library Installation
+1. Install the latest version of the [Arduino IDE](https://www.arduino.cc/en/software).
+2. For the **RFID Access Control** project, you must install the required MFRC522 library:
+   * Open Arduino IDE.
+   * Go to **Sketch** -> **Include Library** -> **Manage Libraries...**
+   * Search for `MFRC522` (by GithubCommunity) and click **Install**.
+3. Connect your Arduino board, select the correct COM port, and upload the `.ino` files to test the systems.
